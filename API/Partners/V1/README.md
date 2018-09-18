@@ -1,7 +1,7 @@
 # Partners API
 API принимает GET/POST запросы на функции указанные в этой документации. Методы не различаются: как GET, так и POST вернут идентичный ответ.
 
-Все запросы отправляются на сервер: https://qtickets.ru Тестовый сервер: https://new.qtickets.ru
+Все запросы отправляются на сервер: https://qtickets.ru
 ### Авторизация
 Каждый запрос к API должен содержать заголовок 
 `Authorization: Bearer YOUR_API_KEY`. API ключ выдается техподдержкой.
@@ -74,49 +74,65 @@ API принимает GET/POST запросы на функции указан�
                "seat_id":"7-1;8",
                "available":false,
                "row":1,
-               "place":8
+               "place":8,
+               "price":300,
+               "currency_id": "RUB"
             },
             {  
                "seat_id":"7-1;7",
                "available":true,
                "row":1,
-               "place":7
+               "place":7,
+               "price":300,
+               "currency_id": "RUB"
             },
             {  
                "seat_id":"7-1;6",
                "available":true,
                "row":1,
-               "place":6
+               "place":6,
+               "price":300,
+               "currency_id": "RUB"
             },
             {  
                "seat_id":"7-1;5",
                "available":true,
                "row":1,
-               "place":5
+               "place":5,
+               "price":300,
+               "currency_id": "RUB"
             },
             {  
                "seat_id":"7-1;4",
                "available":true,
                "row":1,
-               "place":4
+               "place":4,
+               "price":300,
+               "currency_id": "RUB"
             },
             {  
                "seat_id":"7-1;3",
                "available":true,
                "row":1,
-               "place":3
+               "place":3,
+               "price":300,
+               "currency_id": "RUB"       
             },
             {  
                "seat_id":"7-1;2",
                "available":true,
                "row":1,
-               "place":2
+               "place":2,
+               "price":300,
+               "currency_id": "RUB"          
             },
             {  
                "seat_id":"7-1;1",
                "available":true,
                "row":1,
-               "place":1
+               "place":1,
+               "price":300,
+               "currency_id": "RUB"              
             }
          ]
       },
@@ -140,7 +156,9 @@ API принимает GET/POST запросы на функции указан�
                "seat_id":"3-1;1",
                "available":true,
                "free_quantity":11,
-               "admission":true
+               "admission":true,
+               "price":300,
+               "currency_id": "RUB"               
             }
          ]
       },
@@ -152,13 +170,17 @@ API принимает GET/POST запросы на функции указан�
                "seat_id":"1-1;3",
                "available":false,
                "row":1,
-               "place":3
+               "place":3,
+               "price":300,
+               "currency_id": "RUB"               
             },
             {  
                "seat_id":"1-1;2",
                "available":false,
                "row":1,
-               "place":2
+               "place":2,
+               "price":300,
+               "currency_id": "RUB"               
             }
          ]
       }
